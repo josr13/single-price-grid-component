@@ -1,2 +1,44 @@
 @import 'variables';
 
+:root {
+    font-family: $font-family;
+    background-color: $light-gray;
+    font-size: $font-size;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: start;
+
+    .join {
+        background-color: white;
+    }
+
+    .sub {
+        background-color: $cyan;
+    }
+
+    .why {
+        background-color: $light-cyan;
+    }
+}
+
+
+footer {
+    display: none;
+    //position: fixed;
+    bottom: 0;
+    margin: 1em;
+    padding: 0;
+}

@@ -32,6 +32,7 @@ This is my solution to the [Single price grid component challenge on Frontend Me
 - Sass variables
 - Sass partial files
 - Mobile-first workflow
+- BEM methodology
 
 ## Author
 
