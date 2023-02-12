@@ -13,35 +13,68 @@ body {
 
 .container {
   display: grid;
-  align-items: center;
+  align-content: center;
+  justify-content: center;
   height: 100vh;
   margin: 0;
   padding: 0;
   gap: 0;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 17em 16em 16em;
   text-align: start;
+  grid-auto-columns: 19.5em;
 }
 .container .join {
   background-color: white;
+  margin: 0;
+  padding: 0 1.75em;
 }
 .container .join__title {
   color: hsl(179deg, 62%, 43%);
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
 }
 .container .join__desc {
   color: hsl(71deg, 73%, 54%);
+  font-size: 0.9rem;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 .container .join__body {
   color: hsl(218deg, 22%, 67%);
+  font-size: 0.84rem;
+  line-height: 2em;
+  margin: 0;
+  padding: 0;
 }
 .container .sub {
   background-color: hsl(179deg, 62%, 43%);
+  margin: 0;
+  padding: 0 1.75em;
+}
+.container .sub__title {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+.container .sub__price {
+  margin: 0;
+  padding: 0;
 }
 .container .sub__price__number {
+  font-size: 2rem;
   font-weight: 700;
 }
 .container .sub__price__month {
+  font-size: 1.1rem;
   font-weight: 100;
+}
+.container .sub__desc {
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
 }
 .container .sub__button {
   background: hsl(71deg, 73%, 54%);
@@ -50,16 +83,25 @@ body {
   font-size: inherit;
   font-weight: 700;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
+  padding: 1em;
+  margin: 0;
+  width: 100%;
 }
 .container .why {
   background-color: hsl(179deg, 47%, 52%);
+  margin: 0;
+  padding: 0 1.75em;
+}
+.container .why__title {
+  font-size: 1.1rem;
 }
 .container .why__list {
   list-style: none;
   margin: 0;
   padding: 0;
   font-weight: 200;
+  font-size: 0.9rem;
 }
 
 footer {
