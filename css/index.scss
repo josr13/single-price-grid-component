@@ -29,6 +29,7 @@ body {
         background-color: white;
         margin: 0;
         padding: 0 1.75em;
+        border-radius: 6px 6px 0 0;
         &__title {
             color: $cyan;
             font-size: 1.25rem;
@@ -97,6 +98,7 @@ body {
         background-color: $light-cyan;
         margin: 0;
         padding: 0 1.75em;
+        border-radius: 0 0 6px 6px;
         &__title {
             font-size: 1.1rem;
             font-weight: 700;

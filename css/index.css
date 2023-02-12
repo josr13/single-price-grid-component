@@ -27,6 +27,7 @@ body {
   background-color: white;
   margin: 0;
   padding: 0 1.75em;
+  border-radius: 6px 6px 0 0;
 }
 .container .join__title {
   color: hsl(179deg, 62%, 43%);
@@ -93,6 +94,7 @@ body {
   background-color: hsl(179deg, 47%, 52%);
   margin: 0;
   padding: 0 1.75em;
+  border-radius: 0 0 6px 6px;
 }
 .container .why__title {
   font-size: 1.1rem;
