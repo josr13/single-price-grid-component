@@ -37,8 +37,29 @@ body {
 .container .sub {
   background-color: hsl(179deg, 62%, 43%);
 }
+.container .sub__price__number {
+  font-weight: 700;
+}
+.container .sub__price__month {
+  font-weight: 100;
+}
+.container .sub__button {
+  background: hsl(71deg, 73%, 54%);
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+}
 .container .why {
   background-color: hsl(179deg, 47%, 52%);
+}
+.container .why__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
 }
 
 footer {

@@ -39,10 +39,33 @@ body {
 
     .sub {
         background-color: $cyan;
+        &__price {
+            &__number {
+                font-weight: 700;
+            }
+            &__month {
+                font-weight: 100;
+            }
+        }
+        &__button {
+            background: $bright-yellow;
+            color: inherit;
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: 700;
+            border: none;
+            border-radius: 4px;
+        }
     }
 
     .why {
         background-color: $light-cyan;
+        &__list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-weight: 200;
+        }
     }
 }
 
