@@ -2,11 +2,13 @@
   font-family: "Karla", sans-serif;
   background-color: hsl(204deg, 43%, 93%);
   font-size: 16px;
+  font-weight: 400;
 }
 
 body {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .container {
@@ -21,6 +23,16 @@ body {
 }
 .container .join {
   background-color: white;
+}
+.container .join__title {
+  color: hsl(179deg, 62%, 43%);
+}
+.container .join__desc {
+  color: hsl(71deg, 73%, 54%);
+  font-weight: 700;
+}
+.container .join__body {
+  color: hsl(218deg, 22%, 67%);
 }
 .container .sub {
   background-color: hsl(179deg, 62%, 43%);
