@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   gap: 0;
-  grid-template-rows: 17em 16em 16em;
+  grid-template-rows: 16em 14.5em 14.5em;
   text-align: start;
   grid-auto-columns: 19.5em;
 }
@@ -31,7 +31,7 @@ body {
 .container .join__title {
   color: hsl(179deg, 62%, 43%);
   font-size: 1.25rem;
-  margin: 0;
+  margin: 1.25em 0;
   padding: 0;
 }
 .container .join__desc {
@@ -45,7 +45,7 @@ body {
   color: hsl(218deg, 22%, 67%);
   font-size: 0.84rem;
   line-height: 2em;
-  margin: 0;
+  margin: 1.25em 0;
   padding: 0;
 }
 .container .sub {
@@ -55,7 +55,8 @@ body {
 }
 .container .sub__title {
   font-size: 1.1rem;
-  margin: 0;
+  font-weight: 700;
+  margin: 1.25em 0;
   padding: 0;
 }
 .container .sub__price {
@@ -73,7 +74,7 @@ body {
 .container .sub__desc {
   font-size: 1rem;
   font-weight: 200;
-  margin: 0;
+  margin: 0.5em 0;
   padding: 0;
 }
 .container .sub__button {
@@ -85,7 +86,7 @@ body {
   border: none;
   border-radius: 6px;
   padding: 1em;
-  margin: 0;
+  margin: 1.1em 0;
   width: 100%;
 }
 .container .why {
@@ -95,6 +96,8 @@ body {
 }
 .container .why__title {
   font-size: 1.1rem;
+  font-weight: 700;
+  margin: 1.25em 0;
 }
 .container .why__list {
   list-style: none;
@@ -102,6 +105,9 @@ body {
   padding: 0;
   font-weight: 200;
   font-size: 0.9rem;
+}
+.container .why__item {
+  margin: 0.25em 0;
 }
 
 footer {
