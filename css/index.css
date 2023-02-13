@@ -75,7 +75,7 @@ body {
 .container .sub__desc {
   font-size: 1rem;
   font-weight: 200;
-  margin: 0.5em 0;
+  margin: 0.6em 0;
   padding: 0;
 }
 .container .sub__button {
@@ -113,6 +113,24 @@ body {
   margin: 0.25em 0;
 }
 
+@media only screen and (min-width: 1440px) {
+  .container {
+    grid-template-rows: 12em 16em;
+    grid-template-columns: 19em 19em;
+    grid-auto-columns: 19em;
+  }
+  .container .join {
+    grid-column: 1/3;
+  }
+  .container .sub {
+    grid-column: 1/2;
+    border-radius: 0 0 0 6px;
+  }
+  .container .why {
+    grid-column: 2/3;
+    border-radius: 0 0 6px 0;
+  }
+}
 footer {
   display: none;
   bottom: 0;
