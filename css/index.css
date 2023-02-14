@@ -169,4 +169,25 @@ footer {
   bottom: 0;
   margin: 1em;
   padding: 0;
+  color: black;
+  font-size: 16px;
+}
+footer a {
+  color: hsl(179deg, 62%, 43%);
+}
+footer a:active {
+  color: hsl(71deg, 73%, 54%);
+}
+
+@media only screen and (min-height: 870px) {
+  footer {
+    display: block;
+    position: fixed;
+  }
+}
+@media only screen and (min-width: 1440px) and (min-height: 800px) {
+  footer {
+    display: block;
+    position: fixed;
+  }
 }/*# sourceMappingURL=index.css.map */

@@ -177,8 +177,29 @@ body {
 
 footer {
     display: none;
-    //position: fixed;
     bottom: 0;
     margin: 1em;
     padding: 0;
+    color: black;
+    font-size: $font-size;
+    a {
+        color: $cyan;
+        &:active {
+            color: $bright-yellow;
+        }
+    }
+}
+
+@media only screen and (min-height: 870px){
+    footer {
+        display: block;
+        position: fixed;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 800px){
+    footer {
+        display: block;
+        position: fixed;
+    }
 }
