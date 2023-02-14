@@ -120,22 +120,57 @@ body {
 
 @media only screen and (min-width: 1440px) {
     .container {
-        grid-template-rows: 12em 16em;
-        grid-template-columns: 19em 19em;
-        grid-auto-columns: 19em;
+        grid-template-rows: 13.5em 16em;
+        grid-template-columns: 20em 20em;
+        grid-auto-columns: 20em;
         
         .join {
+            padding: 2.5em;
             grid-column: 1 / 3;
+            &__title {
+                font-size: 1.5rem;
+                margin: 0 0 1.1em 0;
+            }
+            &__desc {
+                font-size: 1.125rem;
+            }
+            &__body {
+                font-size: 1rem;
+                line-height: 1.5em;
+                margin: 0.75em 0 0 0;
+            }
         }
         
         .sub {
+            padding: 2.5em;
             grid-column: 1 / 2;
             border-radius: 0 0 0 6px;
+            &__title {
+                margin: 0 0 1.1em 0;
+            }
+            &__price {
+                &__month {
+                    font-size: 1rem;
+                    margin: 0 0.5em;
+                }
+            }
+            &__desc {
+                font-size: 1.025rem;
+                margin: 0.5em 0 1.625em;
+            }
+            &__button {
+                padding: 0.85em 1em;
+                margin: 0;
+            }
         }
         
         .why {
+            padding: 2.5em;
             grid-column: 2 / 3;
             border-radius: 0 0 6px 0;
+            &__title {
+                margin: 0 0 1.1em 0;
+            }
         }
     }
 }
