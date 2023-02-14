@@ -155,6 +155,15 @@ body {
     padding: 0.85em 1em;
     margin: 0;
   }
+  .container .sub__button:hover {
+    cursor: pointer;
+    background: hsl(179deg, 47%, 52%);
+    color: hsl(71deg, 73%, 54%);
+    text-transform: uppercase;
+    text-decoration: underline;
+    transform: scale(1.05);
+    transition: all 0.25s ease-in-out;
+  }
   .container .why {
     padding: 2.5em;
     grid-column: 2/3;

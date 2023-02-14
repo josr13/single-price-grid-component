@@ -118,6 +118,7 @@ body {
     }
 }
 
+// Desktop 
 @media only screen and (min-width: 1440px) {
     .container {
         grid-template-rows: 13.5em 16em;
@@ -161,6 +162,15 @@ body {
             &__button {
                 padding: 0.85em 1em;
                 margin: 0;
+                &:hover {
+                    cursor: pointer;
+                    background: $light-cyan;
+                    color: $bright-yellow;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    transform: scale(1.05);
+                    transition: all 0.25s ease-in-out;
+                }
             }
         }
         
