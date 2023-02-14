@@ -9,6 +9,7 @@ This is my solution to the [Single price grid component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -33,6 +34,18 @@ This is my solution to the [Single price grid component challenge on Frontend Me
 - Sass partial files
 - Mobile-first workflow
 - BEM methodology
+
+### What I learned
+
+While working through this project, I learned the BEM methodology. 
+```html
+<div class="why">
+  <h2 class="why__title">Why Us</h2>
+  <ul class="why__list">
+    <li class="why__item">Tutorials by industry experts</li>
+  </ul>
+</div>
+```
 
 ## Author
 
